@@ -256,7 +256,7 @@ add_action('admin_head', 'my_admin_logo');
  
 /* Меняем картинку логотипа WP на странице входа */
 function my_login_logo(){
-   echo '<style type="text/css">#login h1 a { background: url('. get_bloginfo('template_directory') .'/img/login.png) no-repeat 0 0 !important; }</style>';
+   echo '<style type="text/css">#login h1 a { background: url('. get_bloginfo('template_directory') .'/img/login.png) no-repeat 0 0 !important; width: 228px; hight: 82px; }</style>';
 }
 add_action('login_head', 'my_login_logo');
 /* Ставим ссыллку с логотипа на сайт, а не на wordpress.org */
