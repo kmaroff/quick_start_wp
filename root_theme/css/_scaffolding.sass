@@ -1,0 +1,59 @@
+body
+  font-size: 16px
+  min-width: 320px
+  position: relative
+  line-height: 1.6
+  font-family: $default-font
+  font-weight: normal
+  overflow-x: hidden
+  color: #fff
+
+h1, h2, h3
+  font-family: $default-title
+  line-height: 1.2
+
+section
+  padding: 35px 0 50px
+
+img
+	max-width: 100%
+	height: auto
+
+p
+  margin-top: 0
+  margin-bottom: 30px
+
+.visually-hidden
+  position: absolute
+  width: 1px
+  height: 1px
+  margin: -1px
+  padding: 0
+  border: 0
+  clip: rect(0 0 0 0)
+  overflow: hidden
+
+
+.loader
+  background: none repeat scroll 0 0 #ffffff
+  bottom: 0
+  height: 100%
+  left: 0
+  position: fixed
+  right: 0
+  top: 0
+  width: 100%
+  z-index: 9999
+  .loader_inner
+    background-image: url("/wp-content/themes/spbkarate/img/preloader.gif")
+    background-size: cover
+    background-repeat: no-repeat
+    background-posirion: center center
+    background-color: #fff
+    height: 60px
+    width: 60px
+    margin-top: -30px
+    margin-left: -30px
+    left: 50%
+    top: 50%
+    position: absolute
